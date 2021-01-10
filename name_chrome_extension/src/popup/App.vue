@@ -1,5 +1,14 @@
 <template>
-  <hello-world />
+
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
+     <hello-world />
+  </div>
+
 </template>
 
 <script>
